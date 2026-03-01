@@ -1,0 +1,1 @@
+export function PageHeader({ title, desc }: { title: string; desc?: string }) { return <div className='mb-4'><h2 className='text-xl font-semibold'>{title}</h2>{desc && <p className='text-sm text-muted-foreground'>{desc}</p>}</div>; }
